@@ -1,0 +1,35 @@
+.github {
+    background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px grey;
+}
+
+img {
+    border-radius: 50%;
+}
+
+button {
+    background-color: #88bff5;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    margin: 3px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition:  box-shadow .25s ease-out;
+    box-shadow: .8px .9px 3px grey;
+}
+
+button:hover{
+    box-shadow: 1px 3px 8px grey;
+    -webkit-transition:  box-shadow .1s ease-in;
+}

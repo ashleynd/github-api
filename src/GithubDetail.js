@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from 'react-bootstrap';
 import useFetch from "./hooks/useFetch";
+import './GithubDetail.css';
 
 const GithubDetail = () => {
   const data = useFetch("https://api.github.com/users/ashleynd");
@@ -14,8 +15,8 @@ const GithubDetail = () => {
   const { avatar_url, login, name, followers, following, location, public_repos, created_at, updated_at } = data.response;
   return (
     <div className="App">
-      <div>
-        <h3>{login}</h3>
+      <div className="github">
+        <h2>{login}'s Github</h2>
         <h4>Name: {name}</h4>
         <div>
           <img src={avatar_url} alt="avatar" width="150px" />
