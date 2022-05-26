@@ -1,3 +1,11 @@
+To run (in Terminal):
+
+### `npm start`
+
+To stop:
+
+Control + c
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
